@@ -3,7 +3,7 @@
 </div>
 
 # Fast - Mint
-This simple minting app was built using the Verbwire API. The app lets you mint an NFT from a simple image file, or metadata file. You can mint on any of the 14 supported blockchains (7 testnets and 7 mainnets). For more details on using the Verbwire API you can access the full API docs [here](https://docs.verbwire.com/docs)
+This simple minting app was built using the Verbwire API. The app lets you mint an NFT from a simple image file, or metadata file. One can mint on any of the 14 supported blockchains (7 testnets and 7 mainnets). The details regarding those can be found on the official verbwire docs. [here](https://docs.verbwire.com/docs)
 
 ## Requirements
 1. You'll need a Verbwire API Key. You can get a free API key [HERE](https://www.verbwire.com/auth/register)
@@ -23,10 +23,6 @@ This simple minting app was built using the Verbwire API. The app lets you mint 
 1. To see the program working you can test with this sample metadatafile: https://ipfs.io/ipfs/bafyreia3gktjytjez7vgj4wnshdthsagh4lz2tgib4in2xiirbibziga6e/metadata.json
 
 2. You can create your own metadatafile very easily by using the Verbwire endpoint, *Upload local file as metadata to IPFS*, [HERE](https://docs.verbwire.com/reference/post_nft-store-metadatafromimage). Simply upload your file and you'll get a metadata .json link returned.
-
-<div align="center">
-    <img alt="metaDataFileImg" src="resources/upload_file_as_metadata_to_ipfs.jpg"/>
-</div>
 
 ### Showing where to input your API Key
 <div align="center">
